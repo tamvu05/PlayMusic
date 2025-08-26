@@ -92,12 +92,12 @@ body {
     color: #666;
     border-radius: 50%;
 }
-
+/* 
 .control-item i:hover {
     background-color: #f9005a !important;
     color: #fff !important;
     transition: all 0.5s ease;
-}
+} */
 
 /* progress */
 .progress {
