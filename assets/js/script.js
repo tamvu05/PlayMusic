@@ -226,11 +226,14 @@ const app = {
         let playList = $$('#play-list .item')
         playList.forEach(song => {
             song.onclick = function() {
+                let idCur = _this.songs[_this.currentIndex].id
                 let id = song.dataset.id
-                _this.currentIndex = id
-                _this.renderCurrentSong()
-                audio.play()
-                if (!_this.isPlay) playBtn.click()
+                if(id != idCur) {
+                    _this.currentIndex = id
+                    _this.renderCurrentSong()
+                    audio.play()
+                    if (!_this.isPlay) playBtn.click()
+                }
             }
         })
 
