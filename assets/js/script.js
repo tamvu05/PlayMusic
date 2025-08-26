@@ -12,7 +12,7 @@ const app = {
 
 
     loadSongs: async function () {
-        let res = await fetch('../songs/songs.json')
+        let res = await fetch('./songs/songs.json')
         let songs = await res.json()
         this.songs = songs
     },
