@@ -1,0 +1,144 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #fce0e0;
+    
+}
+
+/* Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: #f9005a !important;
+}
+
+.song-active {
+    color: #fff !important;
+    background-color: #f9005a !important;
+}
+
+.song-active .item-artist {
+    color: #fff;
+}
+
+/* container */
+#container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 400px;
+    cursor:default;
+}
+
+#dashboard {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px 16px 12px;
+    position: fixed;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 8px;
+    transition: all 0.1s ease;
+}
+
+#play-list {
+    padding: 15px 8px 20px;
+    background-color: #f0f0f0;
+    position: absolute;
+    margin-top: 364px;
+    width: 100%;
+}
+
+/* header */
+.header {
+    margin-bottom: 16px;
+}
+
+.header p {
+    color: #f9005a;
+    margin-bottom: 8px;
+}
+
+.cd {
+    /* background: url("../images/DungLamTraiTimAnhDau.webp") center / cover no-repeat; */
+    width: 180px;
+    aspect-ratio: 1 / 1;  /*  tỉ lệ height / width  */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+/* control */
+.control {
+    margin: 0 8px;
+}
+
+.control .control-item {
+    float: left;
+
+    width: calc(100%/5);
+    font-size: 32px;
+}
+
+.control-item i {
+    padding: 8px;
+    color: #666;
+    border-radius: 50%;
+}
+
+.control-item i:hover {
+    background-color: #f9005a !important;
+    color: #fff !important;
+    transition: all 0.5s ease;
+}
+
+/* progress */
+.progress {
+    width: 100%;
+    background: #d3d3d3;
+    height: 6px;
+    margin-top: 14px;
+}
+
+input[type="range"] {
+    accent-color: #f9005a;
+}
+
+/* play-list */
+#play-list .item {
+    background-color: #fff;
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#play-list .item:hover {
+    opacity: 0.7;
+}
+
+.item-cover {
+    padding: 24px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.item-detail {
+    display: inline-block;
+}
+
+.item-artist {
+    color: #666;
+    font-size: 14px;
+}

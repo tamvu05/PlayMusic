@@ -1,0 +1,73 @@
+[
+    {
+        "id": 0,
+        "title": "Đừng làm trái tim anh đau  \u2764",
+        "artist": "Sơn Tùng MTP",
+        "audio": "assets/musics/DungLamTraiTimAnhDau.mp3",
+        "cover": "assets/images/EmYeu.png"
+    },
+    {
+        "id": 1,
+        "title": "Chúng ta của hiện tại",
+        "artist": "Sơn Tùng MTP",
+        "audio": "assets/musics/ChungTaCuaHienTai.mp3",
+        "cover": "assets/images/ChungTaCuaHienTai.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Wait",
+        "artist": "Oringchains",
+        "audio": "assets/musics/Wait.mp3",
+        "cover": "assets/images/Wait.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Kho Báu",
+        "artist": "Trọng Hiếu",
+        "audio": "assets/musics/KhoBau.mp3",
+        "cover": "assets/images/KhoBau.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Con đường tôi",
+        "artist": "Trọng Hiếu",
+        "audio": "assets/musics/ConDuongToi.mp3",
+        "cover": "assets/images/ConDuongToi.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Đau để trưởng thành",
+        "artist": "Only C",
+        "audio": "assets/musics/DauDeTruongThanh.mp3",
+        "cover": "assets/images/DauDeTruongThanh.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Dấu mưa",
+        "artist": "Trung Quân Idol",
+        "audio": "assets/musics/DauMua.mp3",
+        "cover": "assets/images/DauMua.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Mình yêu nhau từ kiếp nào",
+        "artist": "Quang Trung",
+        "audio": "assets/musics/MinhYeuNhauTuKiepNao.mp3",
+        "cover": "assets/images/MinhYeuNhauTuKiepNao.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Phút ban đầu",
+        "artist": "Vũ",
+        "audio": "assets/musics/PhutBanDau.mp3",
+        "cover": "assets/images/PhutBanDau.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Tháng mấy em nhớ anh",
+        "artist": "Hà Anh Tuấn",
+        "audio": "assets/musics/ThangMayEmNhoAnh.mp3",
+        "cover": "assets/images/ThangMayEmNhoAnh.jpg"
+    }
+    
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music is life</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="dashboard">
+            <header class="header">
+                <p>Đang phát</p>
+                <h2 class="header-name-song">Name song</h2>
+            </header>
+
+            <div class="cd"></div>
+
+            <div class="control">
+                <div class="control-item"><i class="ti-loop btn-loop"></i></div>
+                <div class="control-item"><i class="ti-control-backward btn-backward"></i></div>
+                <div class="control-item"><i class="ti-control-play btn-play"></i></div>
+                <div class="control-item"><i class="ti-control-forward btn-forward"></i></div>
+                <div class="control-item"><i class="ti-control-shuffle btn-random"></i></div>
+            </div>
+
+            <input class="progress" type="range" value="0" step="1" min="0" max="100"></input>
+
+            <audio class="audio" src=""></audio>
+        </div>
+
+        <div id="play-list"></div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
